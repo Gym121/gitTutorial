@@ -1,0 +1,22 @@
+.App-wrapper {
+    display: grid;
+    grid-template-areas: 
+    "h h"
+    "p n"
+    ;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 10fr 2fr;
+}
+.Header {
+    background-color: aqua;
+    grid-area: h;
+}
+.Navbar {
+    background-color: blueviolet;
+    grid-area: n;
+    padding: 10px;
+}
+.P {
+    background-color: brown;
+    grid-area: p;
+}

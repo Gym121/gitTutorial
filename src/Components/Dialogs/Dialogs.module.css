@@ -1,0 +1,10 @@
+.Ds{
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.One{
+  padding: 10px;
+}
+.Two{
+  padding: 10px;
+}
